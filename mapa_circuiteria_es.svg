@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1180" width="1600" height="1180" role="img" aria-label="Mapa conceptual de circuitería alternativa de entrada y salida">
+<defs><linearGradient id="fondo" x2="1" y2="1"><stop stop-color="#F4F8FF"/><stop offset="1" stop-color="#FFF6FC"/></linearGradient><filter id="sombra" x="-15%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#737EA7" flood-opacity=".16"/></filter><marker id="punta" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8090AF"/></marker></defs>
+<style>.nodo{transition:opacity .15s ease}.nodo:hover{opacity:.78}</style>
+<rect width="1600" height="1180" fill="url(#fondo)"/>
+<circle cx="98" cy="100" r="100" fill="#DBE9FF" opacity=".50"/>
+<circle cx="1517" cy="1118" r="130" fill="#F4DDF0" opacity=".45"/>
+<text x="800" y="58" text-anchor="middle" font-size="20" font-weight="bold" fill="#775AB9" font-family="Arial, Helvetica, sans-serif">ACTIVIDAD 4  ·  SISTEMAS PROGRAMABLES</text>
+<text x="800" y="108" text-anchor="middle" font-size="37" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Mapa conceptual: Circuitería alternativa de E/S</text>
+<text x="800" y="145" text-anchor="middle" font-size="20" font-weight="normal" fill="#687892" font-family="Arial, Helvetica, sans-serif">Entrada / Salida en microcontroladores</text>
+<rect x="429" y="174" width="742" height="112" rx="32" fill="#5440A5" filter="url(#sombra)"/>
+<text x="800" y="218" text-anchor="middle" font-size="29" font-weight="bold" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif">CIRCUITERÍA ALTERNATIVA</text>
+<text x="800" y="255" text-anchor="middle" font-size="22" font-weight="normal" fill="#F1EAFE" font-family="Arial, Helvetica, sans-serif">Interfaz entre microcontrolador y entorno</text>
+<path d="M 800 286 V 306 H 292 V 335 M 800 306 V 335 M 800 306 H 1308 V 335" fill="none" stroke="#8390AD" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="60" y="335" width="464" height="93" rx="25" fill="#468BD7" filter="url(#sombra)"/>
+<text x="292" y="390" text-anchor="middle" font-size="21" font-weight="bold" fill="white" font-family="Arial, Helvetica, sans-serif">GENERALIDADES DE E/S</text>
+<rect x="234.5" y="300" width="115" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="292" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#468BD7" font-family="Arial, Helvetica, sans-serif">se basa en</text>
+<path d="M 93 428 V 1012" stroke="#468BD7" stroke-width="3.5" opacity=".65" fill="none"/>
+<path d="M 292 428 H 93" stroke="#468BD7" stroke-width="3.5" fill="none"/>
+<path d="M 93 540 H 145" fill="none" stroke="#468BD7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="70.5" y="487" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="117" y="507" text-anchor="middle" font-size="15" font-weight="bold" fill="#468BD7" font-family="Arial, Helvetica, sans-serif">utiliza</text>
+<g class="nodo"><title>Puertos GPIO. Pines para leer o enviar señales</title>
+<rect x="153" y="488" width="356" height="109" rx="24" fill="#EAF5FF" stroke="#468BD7" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="153" y="488" width="7" height="109" rx="3" fill="#468BD7"/>
+<text x="331.0" y="528" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Puertos GPIO</text>
+<text x="331.0" y="564" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Pines para leer o enviar señales</text>
+</g>
+<path d="M 93 722 H 145" fill="none" stroke="#468BD7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="70.5" y="669" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="117" y="689" text-anchor="middle" font-size="15" font-weight="bold" fill="#468BD7" font-family="Arial, Helvetica, sans-serif">ajusta</text>
+<g class="nodo"><title>Registros de control. Configuran la dirección de pines</title>
+<rect x="153" y="670" width="356" height="109" rx="24" fill="#EAF5FF" stroke="#468BD7" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="153" y="670" width="7" height="109" rx="3" fill="#468BD7"/>
+<text x="331.0" y="710" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Registros de control</text>
+<text x="331.0" y="746" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Configuran la dirección de pines</text>
+</g>
+<path d="M 93 904 H 145" fill="none" stroke="#468BD7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="70.5" y="851" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="117" y="871" text-anchor="middle" font-size="15" font-weight="bold" fill="#468BD7" font-family="Arial, Helvetica, sans-serif">emplea</text>
+<g class="nodo"><title>Circuitos de interfaz. Adaptan señales y manejan cargas</title>
+<rect x="153" y="852" width="356" height="109" rx="24" fill="#EAF5FF" stroke="#468BD7" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="153" y="852" width="7" height="109" rx="3" fill="#468BD7"/>
+<text x="331.0" y="892" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Circuitos de interfaz</text>
+<text x="331.0" y="928" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Adaptan señales y manejan cargas</text>
+</g>
+<rect x="568" y="335" width="464" height="93" rx="25" fill="#DB71AF" filter="url(#sombra)"/>
+<text x="800" y="390" text-anchor="middle" font-size="21" font-weight="bold" fill="white" font-family="Arial, Helvetica, sans-serif">VISUALIZACIÓN</text>
+<rect x="756.0" y="300" width="88" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="800" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#DB71AF" font-family="Arial, Helvetica, sans-serif">permite</text>
+<path d="M 601 428 V 1012" stroke="#DB71AF" stroke-width="3.5" opacity=".65" fill="none"/>
+<path d="M 800 428 H 601" stroke="#DB71AF" stroke-width="3.5" fill="none"/>
+<path d="M 601 540 H 653" fill="none" stroke="#DB71AF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="578.5" y="487" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="625" y="507" text-anchor="middle" font-size="15" font-weight="bold" fill="#DB71AF" font-family="Arial, Helvetica, sans-serif">emplea</text>
+<g class="nodo"><title>LED y matrices. Indican estados mediante luz</title>
+<rect x="661" y="488" width="356" height="109" rx="24" fill="#FFF0F9" stroke="#DB71AF" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="661" y="488" width="7" height="109" rx="3" fill="#DB71AF"/>
+<text x="839.0" y="528" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">LED y matrices</text>
+<text x="839.0" y="564" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Indican estados mediante luz</text>
+</g>
+<path d="M 601 722 H 653" fill="none" stroke="#DB71AF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="578.5" y="669" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="625" y="689" text-anchor="middle" font-size="15" font-weight="bold" fill="#DB71AF" font-family="Arial, Helvetica, sans-serif">emplea</text>
+<g class="nodo"><title>Pantallas LCD. Muestran texto y datos</title>
+<rect x="661" y="670" width="356" height="109" rx="24" fill="#FFF0F9" stroke="#DB71AF" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="661" y="670" width="7" height="109" rx="3" fill="#DB71AF"/>
+<text x="839.0" y="710" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Pantallas LCD</text>
+<text x="839.0" y="746" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Muestran texto y datos</text>
+</g>
+<path d="M 601 904 H 653" fill="none" stroke="#DB71AF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="578.5" y="851" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="625" y="871" text-anchor="middle" font-size="15" font-weight="bold" fill="#DB71AF" font-family="Arial, Helvetica, sans-serif">incluye</text>
+<g class="nodo"><title>OLED y TFT. Representan gráficos e imágenes</title>
+<rect x="661" y="852" width="356" height="109" rx="24" fill="#FFF0F9" stroke="#DB71AF" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="661" y="852" width="7" height="109" rx="3" fill="#DB71AF"/>
+<text x="839.0" y="892" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">OLED y TFT</text>
+<text x="839.0" y="928" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Representan gráficos e imágenes</text>
+</g>
+<rect x="1076" y="335" width="464" height="93" rx="25" fill="#8D71D4" filter="url(#sombra)"/>
+<text x="1308" y="390" text-anchor="middle" font-size="21" font-weight="bold" fill="white" font-family="Arial, Helvetica, sans-serif">CODIFICADORES DE POSICIÓN</text>
+<rect x="1228.0" y="300" width="160" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="1308" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#8D71D4" font-family="Arial, Helvetica, sans-serif">recibe datos de</text>
+<path d="M 1109 428 V 1012" stroke="#8D71D4" stroke-width="3.5" opacity=".65" fill="none"/>
+<path d="M 1308 428 H 1109" stroke="#8D71D4" stroke-width="3.5" fill="none"/>
+<path d="M 1109 540 H 1161" fill="none" stroke="#8D71D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="1086.5" y="487" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="1133" y="507" text-anchor="middle" font-size="15" font-weight="bold" fill="#8D71D4" font-family="Arial, Helvetica, sans-serif">incluye</text>
+<g class="nodo"><title>Encoder incremental. Genera pulsos al desplazarse</title>
+<rect x="1169" y="488" width="356" height="109" rx="24" fill="#F2EDFF" stroke="#8D71D4" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="1169" y="488" width="7" height="109" rx="3" fill="#8D71D4"/>
+<text x="1347.0" y="528" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Encoder incremental</text>
+<text x="1347.0" y="564" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Genera pulsos al desplazarse</text>
+</g>
+<path d="M 1109 722 H 1161" fill="none" stroke="#8D71D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="1086.5" y="669" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="1133" y="689" text-anchor="middle" font-size="15" font-weight="bold" fill="#8D71D4" font-family="Arial, Helvetica, sans-serif">incluye</text>
+<g class="nodo"><title>Encoder absoluto. Da un código por posición</title>
+<rect x="1169" y="670" width="356" height="109" rx="24" fill="#F2EDFF" stroke="#8D71D4" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="1169" y="670" width="7" height="109" rx="3" fill="#8D71D4"/>
+<text x="1347.0" y="710" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Encoder absoluto</text>
+<text x="1347.0" y="746" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Da un código por posición</text>
+</g>
+<path d="M 1109 904 H 1161" fill="none" stroke="#8D71D4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#punta)"/>
+<rect x="1086.5" y="851" width="93" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="1133" y="871" text-anchor="middle" font-size="15" font-weight="bold" fill="#8D71D4" font-family="Arial, Helvetica, sans-serif">aplica en</text>
+<g class="nodo"><title>Aplicaciones. Robótica, motores y medición</title>
+<rect x="1169" y="852" width="356" height="109" rx="24" fill="#F2EDFF" stroke="#8D71D4" stroke-width="2.5" filter="url(#sombra)"/>
+<rect x="1169" y="852" width="7" height="109" rx="3" fill="#8D71D4"/>
+<text x="1347.0" y="892" text-anchor="middle" font-size="24" font-weight="bold" fill="#23314A" font-family="Arial, Helvetica, sans-serif">Aplicaciones</text>
+<text x="1347.0" y="928" text-anchor="middle" font-size="17" font-weight="normal" fill="#53647F" font-family="Arial, Helvetica, sans-serif">Robótica, motores y medición</text>
+</g>
+<path d="M 509 579 L 657 579" fill="none" stroke="#5E9B9A" stroke-width="3.5" stroke-dasharray="8,6" marker-end="url(#punta)"/>
+<rect x="534.0" y="608" width="98" height="29" rx="12" fill="#FFFFFF" fill-opacity="0.98"/><text x="583" y="628" text-anchor="middle" font-size="15" font-weight="bold" fill="#328B87" font-family="Arial, Helvetica, sans-serif">controla</text>
+<rect x="238" y="1066" width="1124" height="65" rx="22" fill="#E8E8FA"/>
+<text x="800" y="1092" text-anchor="middle" font-size="20" font-weight="bold" fill="#51469B" font-family="Arial, Helvetica, sans-serif">ENLACE CRUZADO: GPIO → controla → LED</text>
+<text x="800" y="1119" text-anchor="middle" font-size="17" font-weight="normal" fill="#5E6B88" font-family="Arial, Helvetica, sans-serif">Ejemplo aplicado: un microcontrolador recibe datos y activa indicadores visuales</text>
+<text x="800" y="1163" text-anchor="middle" font-size="15" font-weight="normal" fill="#8B93A7" font-family="Arial, Helvetica, sans-serif">Generado con Python  ·  Mapa jerárquico con conceptos, palabras de enlace y conexiones</text>
+</svg>
